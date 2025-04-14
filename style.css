@@ -45,21 +45,21 @@ body {
   }
 
   .sidebar {
-    background-color: #f3ead3;
+    background-color: #EBE5C2;
     min-height: 100vh;
   }
   .sidebar .nav-link {
     color: #333;
   }
   .sidebar .nav-link.active {
-    background-color: #d6cba8;
+    background-color: #B9B28A;
     font-weight: bold;
   }
   .card-custom {
     background-color: #fff;
     border-radius: 12px;
     padding: 20px;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
   }
   .btn-custom {
     background-color: #a1966a;
@@ -67,4 +67,15 @@ body {
   }
   .btn-custom:hover {
     background-color: #8c8056;
+  }
+
+  .fa-solid {
+    color: #504B38;
+    margin-right: 12px;
+  }
+
+  .logout {
+    color: rgb(216, 98, 98);
+    margin-left: 23px !important;
+    margin-top: 350px !important;
   }
