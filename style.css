@@ -1,0 +1,70 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #fff;
+  }
+  .header-bg {
+    background-color: #c9bb91;
+  }
+
+  .signup-btn {
+    background-color: #ffffff;
+    color: #000;
+    border: 1px solid #000;
+    padding: 8px 20px;
+    border-radius: 4px;
+  }
+  .signup-btn:hover {
+    background-color: #e0d8b0;
+    border: 1px solid #cec390;
+
+  }
+
+  .btn-primary {
+    background-color: #c9bb91;
+    color: #000;
+    border: 1px solid #000;
+    padding: 8px 20px;
+    border-radius: 4px;
+  }
+  .btn-primary:hover {
+    background-color: #e0d8b0;
+    border: 1px solid #cec390;
+
+  }
+  .section-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+  }
+  .footer {
+    background-color: #e0d8b0;
+    color: #000;
+  }
+  .footer a {
+    color: #000;
+    text-decoration: none;
+  }
+
+  .sidebar {
+    background-color: #f3ead3;
+    min-height: 100vh;
+  }
+  .sidebar .nav-link {
+    color: #333;
+  }
+  .sidebar .nav-link.active {
+    background-color: #d6cba8;
+    font-weight: bold;
+  }
+  .card-custom {
+    background-color: #fff;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  .btn-custom {
+    background-color: #a1966a;
+    color: #fff;
+  }
+  .btn-custom:hover {
+    background-color: #8c8056;
+  }
