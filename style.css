@@ -97,4 +97,50 @@ body {
     box-shadow: none;
     padding-left: 20px;
   }
+
+  /* Payment CSS */
+
+  .col-md-9 {
+    background-color: #F8F3D9;
+  }
+
+  @font-face {
+    font-family: 'MonumentExtended';
+    src: url('font/MonumentExtended-Regular.otf');
+  }
+
+  h3 {
+    font-family: 'MonumentExtended';
+    letter-spacing: 0.1em;
+    font-size: 2.5rem;
+    color: #000000;
+  }
+
+  .card-body {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    padding: 30px;
+  }
+
+  .form-member {
+    border: solid 1px #ccc;
+    border-radius: 5px;
+    padding: 7px;
+    padding-left: 10px;
+    height: 5vh;
+    width: 100%;
+    margin-top: 2px;
+    margin-bottom: 10px;
+  }
+
+  .plan {
+    border: solid 1px #ccc;
+    border-radius: 5px;
+    padding: 7px;
+    height: 5vh;
+    width: 20vw;
+    margin-bottom: 10px;
+  }
+
   
