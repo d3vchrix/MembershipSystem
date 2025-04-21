@@ -97,3 +97,79 @@ body {
     box-shadow: none;
     padding-left: 20px;
   }
+
+  /* Payment CSS */
+
+  .col-md-9 {
+    background-color: #F8F3D9;
+  }
+
+  @font-face {
+    font-family: 'MonumentExtended';
+    src: url('font/MonumentExtended-Regular.otf');
+  }
+
+  h3 {
+    font-family: 'MonumentExtended';
+    letter-spacing: 0.1em;
+    font-size: 2.5rem;
+    color: #000000;
+  }
+
+  .card-body {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    padding: 30px;
+  }
+
+  .container-fullname {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 5px;
+  }
+
+  .form-member {
+    border: solid 1px #ccc;
+    border-radius: 5px;
+    padding: 7px;
+    padding-left: 15px;
+    height: 5.5vh;
+    width: 32.2vw;
+    margin-top: 2px;
+    margin-bottom: 10px;
+  }
+
+  .plan-date {
+    border: solid 1px #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    height: 5vh;
+    width: 21vw;
+    margin-bottom: 10px;
+  }
+
+  .container-datenplan {
+    display: flex;
+    gap: 20px;
+  }
+
+  .next-btn {
+    background-color: #c9bb91;
+    border: solid 1px #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-right:2px;
+    margin-top: 15px;
+  }
+
+  .cancel-btn {
+    background-color: #cccc;
+    border: solid 1px #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-left:2px;
+    margin-top: 15px;
+  }

@@ -63,55 +63,50 @@
       <!-- Main Content -->
       <div class="col-md-9 p-4">
         <div class="d-flex justify-content-between align-items-center mb-4">
-            <h3>Plan List</h3>
+          <h3>Payment</h3>
         </div>
-
-        <div class="card-custom">
-            <div class="d-flex justify-content-between align-items-center mb-3">
-                <div>
-                    <input type="text" class="form-control d-inline w-auto me-2" placeholder="Search">
-                    <select class="form-select d-inline w-auto">
-                        <option>Sort by</option>
-                        <option>Name</option>
-                        <option>Status</option>
-                    </select>
-                </div>
-                <a class="btn btn-primary">Add Plan</a>
+        <div class="card-body">
+          <form>
+            <div class="container-fullname">
+              <div class="member-form">
+                <label for="lastName" class="lastname">Last Name: </label><br>
+                <input type="text" class="form-member" id="lastName" placeholder="Enter Last Name" required>
+              </div>
+              <div class="member-form">
+                <label for="firstName" class="firstname">First Name: </label><br>
+                <input type="text" class="form-member" id="firstName" placeholder="Enter First Name" required>
+              </div>
             </div>
-            <table class="table">
-                <thead>
-                    <tr>
-                        <th>Name</th>
-                        <th>Date Paid</th>
-                        <th>Date Expiry</th>
-                        <th>Status</th>
-                        <th>Actions</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>James Madalla</td>
-                        <td>04/01/2025</td>
-                        <td>05/01/2025</td>
-                        <td>Active</td>
-                        <td>VIew</td>
-                    </tr>
-                    <tr>
-                        <td>Kent Charri Mabutas</td>
-                        <td>04/02/2025</td>
-                        <td>05/02/2025</td>
-                        <td>Active</td>
-                    </tr>
-                    <tr>
-                        <td>John Elmer Rodrigo</td>
-                        <td>04/03/2025</td>
-                        <td>05/03/2025</td>
-                        <td>Active</td>
-                    </tr>
-                </tbody>
-            </table>
+            <div class="container-datenplan">
+              <div class="plan-form">
+                <label for="plan">Plan</label><br>
+                  <select class="plan-date" id="plan" name="plan" required>
+                    <option disabled selected>Select Plan</option>
+                    <option value="rebond">Rebond</option>
+                    <option value="salon">Salon</option>
+                    <option value="spa">Foot spa</option>
+                    <option value="haircut">Haircut</option>
+                  </select>
+              </div>
+              <div class="plan-form">
+                <label for="plan">Price</label><br>
+                  <select class="plan-date" id="plan" name="plan" required>
+                    <option disabled selected>Select Price</option>
+                    <option value="599">599</option>
+                    <option value="1899">1899</option>
+                    <option value="2499">2499</option>
+                    <option value="4500">4500</option>
+                  </select>
+              </div>
+                <div class="dateJoin-form">
+                  <label for="date-join" class="textBox">Date of Join</label><br>
+                  <input type="date" class="plan-date" id="date-join" required>
+                </div>
+            </div>
+              <button class="next-btn">Next</button>
+              <button type="reset" class="cancel-btn">Cancel</button>
+          </form>
         </div>
-    </div>
 
     </div>
   </div>
