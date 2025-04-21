@@ -63,32 +63,55 @@
       <!-- Main Content -->
       <div class="col-md-9 p-4">
         <div class="d-flex justify-content-between align-items-center mb-4">
-          <h3>Payment</h3>
+            <h3>Plan List</h3>
         </div>
-        <div class="card-body">
-          <form>
-            <div class="member-form">
-              <label for="nameMember" class="textbox">Name of Member</label><br>
-              <input type="text" class="form-member" id="nameMember" placeholder="Enter Name" required>
+
+        <div class="card-custom">
+            <div class="d-flex justify-content-between align-items-center mb-3">
+                <div>
+                    <input type="text" class="form-control d-inline w-auto me-2" placeholder="Search">
+                    <select class="form-select d-inline w-auto">
+                        <option>Sort by</option>
+                        <option>Name</option>
+                        <option>Status</option>
+                    </select>
+                </div>
+                <a class="btn btn-primary">Add Plan</a>
             </div>
-            <div class="plan-form">
-              <label for="plan">Plan and Price</label><br>
-                <select class="plan" id="plan" name="plan" required>
-                  <option disabled selected>Select Plan</option>
-                  <option value="rebond">Rebond</option>
-                  <option value="salon">Salon</option>
-                  <option value="spa">Foot spa</option>
-                  <option value="haircut">Haircut</option>
-                </select>
-            <div class="mb-3">
-              <label for="confirmPassword" class="textBox">Date of Join</label>
-              <input type="date" class="form-control" id="date-join">
-            </div>
-            <button class="btn btn-custom">Next</button>
-            <button type="reset" class="btn btn-secondary ms-2">Cancel</button>
-          </form>
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Date Paid</th>
+                        <th>Date Expiry</th>
+                        <th>Status</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>James Madalla</td>
+                        <td>04/01/2025</td>
+                        <td>05/01/2025</td>
+                        <td>Active</td>
+                        <td>VIew</td>
+                    </tr>
+                    <tr>
+                        <td>Kent Charri Mabutas</td>
+                        <td>04/02/2025</td>
+                        <td>05/02/2025</td>
+                        <td>Active</td>
+                    </tr>
+                    <tr>
+                        <td>John Elmer Rodrigo</td>
+                        <td>04/03/2025</td>
+                        <td>05/03/2025</td>
+                        <td>Active</td>
+                    </tr>
+                </tbody>
+            </table>
         </div>
-      </div>
+    </div>
 
     </div>
   </div>
