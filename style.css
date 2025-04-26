@@ -362,4 +362,44 @@ body {
     border: none;
   }
 
-  
+  /* Plan CSS */
+
+  .plan-btn {
+    text-align: right;
+    margin-right: 30px;
+  }
+
+  .save-btn:hover {
+    background-color: #e0d8b0;
+    border: none;
+  }
+
+  .save-btn {
+    background-color: #c9bb91;
+    color: #504B38;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    padding-left: 12px;
+    padding-right: 12px;
+    margin-right: 3px;
+    margin-top: 15px;
+  }
+
+  .pcancel-btn {
+    background-color: #f2f2f2;
+    color: #504B38;
+    border: solid 1px #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    padding-left: 12px;
+    padding-right: 12px;
+    margin-left: 3px;
+    margin-top: 15px;
+    margin-right: 5px;
+  }
+
+  .pcancel-btn:hover {
+    background-color: #e0d8b0;
+    border: solid 1px #ccc;
+  }

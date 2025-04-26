@@ -63,53 +63,93 @@
             <!-- Main Content -->
             <div class="col-md-9 p-4">
                 <div class="d-flex justify-content-between align-items-center mb-4">
-                    <h3>Plan List</h3>
+                    <h3>Add Plan</h3>
+                    <i class="fa-solid fa-bell"></i>
                 </div>
 
                 <div class="card-custom">
-                    <div class="d-flex justify-content-between align-items-center mb-3">
+                    <div class="salesDate-form">
                         <div>
-                            <input type="text" class="form-control d-inline w-auto me-2" placeholder="Search">
-                            <select class="form-select d-inline w-auto">
-                                <option>Sort by</option>
-                                <option>Name</option>
-                                <option>Status</option>
-                            </select>
+                            <label for="plan-name" class="textBox">Plan Name</label><br>
+                            <input type="text" class="plan-date" id="plan-name" required>
                         </div>
-                        <a class="btn btn-primary">Add Plan</a>
+                        <div>
+                            <label for="validity" class="textBox">Validity</label><br>
+                            <input type="text" class="plan-date" id="validity" required>
+                        </div>
+                        <div>
+                            <label for="amount">Amount</label>
+                            <input type="text" class="plan-date" id="amount" required>
+                        </div>
                     </div>
-                    <table class="table">
-                        <thead>
-                            <tr>
-                                <th>Name</th>
-                                <th>Date Paid</th>
-                                <th>Date Expiry</th>
-                                <th>Status</th>
-                                <th>Actions</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td>James Madalla</td>
-                                <td>04/01/2025</td>
-                                <td>05/01/2025</td>
-                                <td>Active</td>
-                                <td>VIew</td>
-                            </tr>
-                            <tr>
-                                <td>Kent Charri Mabutas</td>
-                                <td>04/02/2025</td>
-                                <td>05/02/2025</td>
-                                <td>Active</td>
-                            </tr>
-                            <tr>
-                                <td>John Elmer Rodrigo</td>
-                                <td>04/03/2025</td>
-                                <td>05/03/2025</td>
-                                <td>Active</td>
-                            </tr>
-                        </tbody>
-                    </table>
+                    <div class="plan-btn">
+                        <button class="save-btn">Save</button>
+                        <button type="reset" class="pcancel-btn">Cancel</button>
+                    </div>
+                </div>
+
+                <div class="card-custom">
+                    <div>
+                        <h4><b>Spa Members</b></h4>
+                    </div>
+                    <div>
+                        <div class="d-flex justify-content-between align-items-center mb-3">
+                            <div>
+                                <label class="label-sales">show entities</label>
+                                <select class="entity-select">
+                                    <option>5</option>
+                                    <option selected>10</option>
+                                    <option>15</option>
+                                </select>
+                            </div>
+                            <input type="text" class="search-bar" placeholder="Search">
+                        </div>
+                        <table class="table">
+                            <thead class="table">
+                                <tr>
+                                    <th>Name</th>
+                                    <th>Member ID</th>
+                                    <th>Date Enrolled</th>
+                                    <th>Date Expiration</th>
+                                    <th>Actions</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>James Madalla</td>
+                                    <td>ABC1234D5</td>
+                                    <td>Jan 15</td>
+                                    <td>Feb 15</td>
+                                    <td><button class="edit-btn">Edit</button></td>
+                                </tr>
+                                <tr>
+                                    <td>Kent Charri Mabutas</td>
+                                    <td>EFG6789H1</td>
+                                    <td>Jan 10</td>
+                                    <td>Feb 10</td>
+                                    <td><button class="edit-btn">Edit</button></td>
+                                </tr>
+                                <tr>
+                                    <td>John Elmer Rodrigo</td>
+                                    <td>AJX0481H5</td>
+                                    <td>Jan 10</td>
+                                    <td>April 10</td>
+                                    <td><button class="edit-btn">Edit</button></td>
+                                </tr>
+                                <tr>
+                                    <td>John Elmer Rodrigo</td>
+                                    <td>ADC9431G2</td>
+                                    <td>Jan 18</td>
+                                    <td>March 18</td>
+                                    <td><button class="edit-btn">Edit</button></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <div class="prevnext-btn">
+                            <button class="prev-btn">Previous</button>
+                            <button type="reset" class="pnext-btn">Next</button>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
