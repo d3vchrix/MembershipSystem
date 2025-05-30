@@ -97,7 +97,6 @@ body {
     box-shadow: none;
     padding-left: 20px;
   }
-
   .dropdown-item.active {
     background-color: #B9B28A;
     font-weight: bold;
